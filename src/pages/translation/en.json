@@ -3,5 +3,11 @@
     "student": "IT Student",
     "email": "maximilien-bruyere@hotmail.com",
     "place": "Hainaut, Belgium", 
-    "contact": "Contact me"
+    "contact": "Contact me",
+    "welcome_message": "Welcome to my portfolio ! <red500><underline>Discover</underline></red500> my <gray300>journey</gray300> and my <red200>skills</red200>.",
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "cv": "My CV",
+    "french": "French",
+    "english": "English"
 }
