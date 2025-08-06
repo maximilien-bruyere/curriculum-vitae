@@ -1,9 +1,26 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Gotham Black';
+  src: url('./assets/gotham-black/gotham.otf');
+}
+
 @theme {
-  --color-background: #FFFFFF;
-  --color-secondary-bg: #D9D9D9;
-  --color-text: #284D63;
-  --color-accent: #3C6F71;
-  --color-danger: #353535;
+  --color-rust: #C97C5D;
+  --color-petrol-blue: #276678;
+  --color-beige: #F6E7D8;
+  --font-display: 'Gotham Black', sans-serif;
+}
+
+@keyframes bounce-down {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+.animate-bounce-down {
+  animation: bounce-down 1s infinite;
 }
