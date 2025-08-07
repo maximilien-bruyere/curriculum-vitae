@@ -1,11 +1,10 @@
 {
     "name": "Maximilien Bruyère",
     "student": "IT Student",
-    "email": "maximilien-bruyere@hotmail.com",
-    "place": "Hainaut, Belgium", 
     "contact": "Contact me",
     "welcome_message": "Welcome on my page ! <blue>Discover</blue> my <rust>background</rust> and my <rust>skills</rust>.",
     "home": "Home",
+    "about": "About",
     "portfolio": "Portfolio",
     "cv": "My CV",
     "french": "French",
