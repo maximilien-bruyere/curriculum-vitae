@@ -3,7 +3,7 @@ import { useEffect, useState, useRef } from "react";
 const Arrow = () => {
   const [visible, setVisible] = useState(true);
   const [fade, setFade] = useState(false);
-  const timeoutRef = useRef<number | null>(null);
+  const timeoutRef = useRef<number | NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     const handleScroll = () => {
