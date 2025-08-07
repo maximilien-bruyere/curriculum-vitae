@@ -26,7 +26,7 @@ const Nav = () => {
 
   return (
     <nav className="fixed top-0 right-0 z-20 p-4 w-full flex justify-around items-center bg-white shadow-sm">
-      <ul className="flex space-x-4">
+      <ul className="flex space-x-6">
         <li>
           <a
             href="#home"
@@ -38,6 +38,19 @@ const Nav = () => {
             }`}
           >
             {t("home")}
+          </a>
+        </li>
+        <li>
+          <a
+            href="#about"
+            onClick={() => setActive("about")}
+            className={`text-[15px] transition-all duration-200 text-gray-700 underline-offset-10 active:text-rust ${
+              active === "about"
+                ? "underline decoration-rust decoration-2 text-rust"
+                : ""
+            }`}
+          >
+            {t("about")}
           </a>
         </li>
         <li>
