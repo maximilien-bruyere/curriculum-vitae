@@ -1,10 +1,21 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 const Nav = () => {
   const { t, i18n } = useTranslation();
   const [active, setActive] = useState("home");
   const [lang, setLang] = useState(i18n.language.toUpperCase().slice(0,2) || "FR");
+
+  useEffect(() => {
+    const handleLanguageChange = (lng: string) => {
+      setLang(lng.toUpperCase().slice(0,2));
+    };
+    
+    i18n.on('languageChanged', handleLanguageChange);
+    return () => {
+      i18n.off('languageChanged', handleLanguageChange);
+    };
+  }, [i18n]);
 
   const handleLangChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const newLang = e.target.value;
