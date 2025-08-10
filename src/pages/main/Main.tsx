@@ -3,7 +3,7 @@ import Portfolio from "./portfolio/Portfolio";
 
 const Main = () => {
     return (
-        <main className="h-200 flex flex-col items-center justify-start">
+        <main className="min-h-screen flex flex-col items-center justify-start sm:px-4 md:px-10">
             <Home />
             <Portfolio />
         </main>

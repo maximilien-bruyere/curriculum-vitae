@@ -13,7 +13,7 @@ function App() {
       <I18nextProvider i18n={i18n}>
         <div className="relative h-screen">
           <Background />
-          <div className="relative flex flex-col pt-80 px-10">
+          <div className="w-full relative flex flex-col md:pt-30 xl:pt-60">
             <div>
               <Header />
               <Main />

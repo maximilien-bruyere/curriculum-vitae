@@ -33,7 +33,7 @@ const Nav = () => {
   return (
     <>
       <nav
-        className={`fixed top-0 right-0 z-20 p-4 w-full flex justify-between items-center bg-white shadow-sm`}
+        className={`fixed top-0 right-0 z-20 py-2 w-full flex justify-between items-center bg-white shadow-sm px-10`}
       >
         <button
           className="flex flex-col justify-center items-center w-8 h-8 md:hidden"
@@ -62,7 +62,7 @@ const Nav = () => {
             <a
               href="#home"
               onClick={() => setActive("home")}
-              className={`text-[15px] transition-all duration-200 text-gray-700 underline-offset-10 active:text-rust ${
+              className={`text-[15px] transition-all duration-200 text-gray-700 underline-offset-10 active:text-rust hover:underline hover:decoration-2 ${
                 active === "home"
                   ? "underline decoration-rust decoration-2 text-rust"
                   : ""
@@ -75,7 +75,7 @@ const Nav = () => {
             <a
               href="#about"
               onClick={() => setActive("about")}
-              className={`text-[15px] transition-all duration-200 text-gray-700 underline-offset-10 active:text-rust ${
+              className={`text-[15px] transition-all duration-200 text-gray-700 underline-offset-10 active:text-rust hover:underline hover:decoration-2 ${
                 active === "about"
                   ? "underline decoration-rust decoration-2 text-rust"
                   : ""
@@ -88,7 +88,7 @@ const Nav = () => {
             <a
               href="#portfolio"
               onClick={() => setActive("portfolio")}
-              className={`text-[15px] transition-all duration-200 text-gray-700 underline-offset-10 active:text-rust ${
+              className={`text-[15px] transition-all duration-200 text-gray-700 underline-offset-10 active:text-rust hover:underline hover:decoration-2 ${
                 active === "portfolio"
                   ? "underline decoration-rust decoration-2 text-rust"
                   : ""
@@ -101,7 +101,7 @@ const Nav = () => {
             <a
               href="#cv"
               onClick={() => setActive("cv")}
-              className={`text-[15px] transition-all duration-200 text-gray-700 underline-offset-10 active:text-rust ${
+              className={`text-[15px] transition-all duration-200 text-gray-700 underline-offset-10 active:text-rust hover:underline hover:decoration-2${
                 active === "cv"
                   ? "underline decoration-rust decoration-2 text-rust"
                   : ""

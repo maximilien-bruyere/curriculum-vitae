@@ -7,7 +7,7 @@ interface DesktopFormProps {
 const DesktopForm: React.FC<DesktopFormProps> = (props) => {
   return (
     <>
-      <form className="hidden md:block pr-10">
+      <form className="hidden md:block">
         <label htmlFor="under line_select" className="sr-only">
           Underline select
         </label>

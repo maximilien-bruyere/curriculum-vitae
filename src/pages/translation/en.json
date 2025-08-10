@@ -2,7 +2,7 @@
     "name": "Maximilien Bruyère",
     "student": "IT Student",
     "contact": "Contact me",
-    "welcome_message": "Welcome on my page ! <blue>Discover</blue> my <rust>background</rust> and my <rust>skills</rust>.",
+    "welcome_message": "Welcome on my page! <underline><blue>Discover</blue></underline> my <rust>background</rust> and my <rust>skills</rust>.",
     "home": "Home",
     "about": "About",
     "portfolio": "Portfolio",

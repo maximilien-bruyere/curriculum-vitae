@@ -7,18 +7,20 @@ const Home = () => {
     
     return (
         <>
-        <div className="flex flex-row items-center justify-around gap-8 mt-10 w-full">
-        <h1 className="text-6xl font-display text-left w-180 leading-[1.2]">
+        <div className="flex flex-col md:flex-row items-center justify-center md:justify-around gap-8 mt-10 w-full max-w-7xl mx-auto m-4">
+        <h1 className="text-4xl md:text-6xl font-display text-center md:text-left max-w-lg md:max-w-2xl leading-[1.2] order-2 md:order-1">
           <Trans
             i18nKey={t("welcome_message")}
             components={{
-              underline: <u className="underline-offset-8"/>,
+              underline: <u className="underline underline-offset-8 decoration-petrol-blue"/>,
               rust: <span className="text-rust" />,
               blue: <span className="text-petrol-blue" />,
             }}
           />
         </h1>
-        <Squares />
+        <div className="order-1 md:order-2">
+          <Squares />
+        </div>
       </div>
       <Arrow />
         </>

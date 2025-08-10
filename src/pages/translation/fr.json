@@ -2,7 +2,7 @@
     "name": "Maximilien Bruyère",
     "student": "Étudiant en informatique",
     "contact": "Me contacter",
-    "welcome_message": "Bienvenue sur ma page ! <blue>Découvrez</blue> mon <rust>parcours</rust> ainsi que mes <rust>compétences</rust>.",
+    "welcome_message": "Bienvenue sur ma page ! <underline><blue>Découvrez</blue></underline> mon <rust>parcours</rust> ainsi que mes <rust>compétences</rust>.",
     "home": "Home",
     "about": "À propos",
     "portfolio": "Portfolio",
